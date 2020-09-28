@@ -1,0 +1,14 @@
+{
+  "name": "lambda-wkhtmltopdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && zip -r posBillTopdfAndSavetoS3AndSMS.zip *"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sync-request": "^6.0.0"
+  }
+}
